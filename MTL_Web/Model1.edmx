@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="T_DVL_INV_PN">
+          <Key>
+            <PropertyRef Name="PART_ID" />
+          </Key>
+          <Property Name="PART_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PART_NO" Type="varchar2" MaxLength="100" />
+          <Property Name="PRODUCT_NAME" Type="varchar2" MaxLength="255" />
+          <Property Name="STD_PACK" Type="varchar2" MaxLength="50" />
+          <Property Name="MIN_QTY" Type="number" Precision="38" Scale="0" />
+          <Property Name="MAX_QTY" Type="number" Precision="38" Scale="0" />
+          <Property Name="CATEGORY_ID" Type="varchar2" MaxLength="100" />
+          <Property Name="STATUS" Type="varchar2" MaxLength="10" />
+          <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="CREATED_DATE" Type="date" />
+          <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="MODIFIED_DATE" Type="date" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_PN_CATEGORY">
+          <Key>
+            <PropertyRef Name="CATEGORY_ID" />
+          </Key>
+          <Property Name="CATEGORY_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CATEGORY_NAME" Type="varchar2" MaxLength="100" />
+          <Property Name="REMARK" Type="varchar2" MaxLength="255" />
+          <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="CREATED_DATE" Type="date" />
+          <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="MODIFIED_DATE" Type="date" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_PN_OUT">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="REQ_ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="REQ_ID" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="PART_ID" Type="number" Precision="38" Scale="0" />
+          <Property Name="REQ_DATE" Type="date" />
+          <Property Name="REQ_QTY" Type="number" Precision="38" Scale="0" />
+          <Property Name="USER_GID" Type="varchar2" MaxLength="10" />
+          <Property Name="REQ_TO_STORE" Type="varchar2" MaxLength="50" />
+          <Property Name="STATUS" Type="varchar2" MaxLength="50" />
+          <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="CREATED_DATE" Type="date" />
+          <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="MODIFIED_DATE" Type="date" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_PN_RCV">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RCV_ID" Type="varchar2" MaxLength="50" />
+          <Property Name="PART_ID" Type="number" Precision="38" Scale="0" />
+          <Property Name="RCV_QTY" Type="number" Precision="38" Scale="0" />
+          <Property Name="RCV_DATE" Type="date" />
+          <Property Name="STORE_ID" Type="varchar2" MaxLength="100" />
+          <Property Name="DOC_NO" Type="varchar2" MaxLength="100" />
+          <Property Name="DOC_FILE_DIR" Type="varchar2" MaxLength="100" />
+          <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="CREATED_DATE" Type="date" />
+          <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="MODIFIED_DATE" Type="date" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_STOCK">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RCV_ID" Type="varchar2" MaxLength="50" />
+          <Property Name="REQ_ID" Type="varchar2" MaxLength="50" />
+          <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="CREATED_DATE" Type="date" />
+          <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="MODIFIED_DATE" Type="date" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_STORE">
+          <Key>
+            <PropertyRef Name="STORE_ID" />
+          </Key>
+          <Property Name="STORE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="STORE_NAME" Type="varchar2" MaxLength="100" />
+          <Property Name="REMARK" Type="varchar2" MaxLength="255" />
+          <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="CREATED_DATE" Type="date" />
+          <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="MODIFIED_DATE" Type="date" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_USER">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="USER_GID" Type="varchar2" MaxLength="10" />
+          <Property Name="USER_NAME" Type="varchar2" MaxLength="255" />
+          <Property Name="USER_ROLE" Type="varchar2" MaxLength="50" />
+          <Property Name="USER_TYPE" Type="varchar2" MaxLength="100" />
+          <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="CREATED_DATE" Type="date" />
+          <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+          <Property Name="MODIFIED_DATE" Type="date" />
+        </EntityType>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="T_DVL_INV_PN" EntityType="Self.T_DVL_INV_PN" Schema="G0713775" store:Type="Tables" />
+          <EntitySet Name="T_DVL_INV_PN_CATEGORY" EntityType="Self.T_DVL_INV_PN_CATEGORY" Schema="G0713775" store:Type="Tables" />
+          <EntitySet Name="T_DVL_INV_PN_OUT" EntityType="Self.T_DVL_INV_PN_OUT" Schema="G0713775" store:Type="Tables" />
+          <EntitySet Name="T_DVL_INV_PN_RCV" EntityType="Self.T_DVL_INV_PN_RCV" Schema="G0713775" store:Type="Tables" />
+          <EntitySet Name="T_DVL_INV_STOCK" EntityType="Self.T_DVL_INV_STOCK" Schema="G0713775" store:Type="Tables" />
+          <EntitySet Name="T_DVL_INV_STORE" EntityType="Self.T_DVL_INV_STORE" Schema="G0713775" store:Type="Tables" />
+          <EntitySet Name="T_DVL_INV_USER" EntityType="Self.T_DVL_INV_USER" Schema="G0713775" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="T_DVL_INV_PN">
+          <Key>
+            <PropertyRef Name="PART_ID" />
+          </Key>
+          <Property Name="PART_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PART_NO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="PRODUCT_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="STD_PACK" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="MIN_QTY" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="MAX_QTY" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CATEGORY_ID" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="STATUS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_DATE" Type="DateTime" />
+          <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MODIFIED_DATE" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_PN_CATEGORY">
+          <Key>
+            <PropertyRef Name="CATEGORY_ID" />
+          </Key>
+          <Property Name="CATEGORY_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CATEGORY_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="REMARK" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_DATE" Type="DateTime" />
+          <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MODIFIED_DATE" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_PN_OUT">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="REQ_ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="REQ_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PART_ID" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="REQ_DATE" Type="DateTime" />
+          <Property Name="REQ_QTY" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="USER_GID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="REQ_TO_STORE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="STATUS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_DATE" Type="DateTime" />
+          <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MODIFIED_DATE" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_PN_RCV">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RCV_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PART_ID" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="RCV_QTY" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="RCV_DATE" Type="DateTime" />
+          <Property Name="STORE_ID" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="DOC_NO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="DOC_FILE_DIR" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_DATE" Type="DateTime" />
+          <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MODIFIED_DATE" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_STOCK">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RCV_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="REQ_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_DATE" Type="DateTime" />
+          <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MODIFIED_DATE" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_STORE">
+          <Key>
+            <PropertyRef Name="STORE_ID" />
+          </Key>
+          <Property Name="STORE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="STORE_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="REMARK" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_DATE" Type="DateTime" />
+          <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MODIFIED_DATE" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="T_DVL_INV_USER">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="USER_GID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="USER_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="USER_ROLE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="USER_TYPE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CREATED_DATE" Type="DateTime" />
+          <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MODIFIED_DATE" Type="DateTime" />
+        </EntityType>
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="T_DVL_INV_PN" EntityType="Self.T_DVL_INV_PN" />
+          <EntitySet Name="T_DVL_INV_PN_CATEGORY" EntityType="Self.T_DVL_INV_PN_CATEGORY" />
+          <EntitySet Name="T_DVL_INV_PN_OUT" EntityType="Self.T_DVL_INV_PN_OUT" />
+          <EntitySet Name="T_DVL_INV_PN_RCV" EntityType="Self.T_DVL_INV_PN_RCV" />
+          <EntitySet Name="T_DVL_INV_STOCK" EntityType="Self.T_DVL_INV_STOCK" />
+          <EntitySet Name="T_DVL_INV_STORE" EntityType="Self.T_DVL_INV_STORE" />
+          <EntitySet Name="T_DVL_INV_USER" EntityType="Self.T_DVL_INV_USER" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="T_DVL_INV_PN">
+            <EntityTypeMapping TypeName="Model.T_DVL_INV_PN">
+              <MappingFragment StoreEntitySet="T_DVL_INV_PN">
+                <ScalarProperty Name="PART_ID" ColumnName="PART_ID" />
+                <ScalarProperty Name="PART_NO" ColumnName="PART_NO" />
+                <ScalarProperty Name="PRODUCT_NAME" ColumnName="PRODUCT_NAME" />
+                <ScalarProperty Name="STD_PACK" ColumnName="STD_PACK" />
+                <ScalarProperty Name="MIN_QTY" ColumnName="MIN_QTY" />
+                <ScalarProperty Name="MAX_QTY" ColumnName="MAX_QTY" />
+                <ScalarProperty Name="CATEGORY_ID" ColumnName="CATEGORY_ID" />
+                <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+                <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_DVL_INV_PN_CATEGORY">
+            <EntityTypeMapping TypeName="Model.T_DVL_INV_PN_CATEGORY">
+              <MappingFragment StoreEntitySet="T_DVL_INV_PN_CATEGORY">
+                <ScalarProperty Name="CATEGORY_ID" ColumnName="CATEGORY_ID" />
+                <ScalarProperty Name="CATEGORY_NAME" ColumnName="CATEGORY_NAME" />
+                <ScalarProperty Name="REMARK" ColumnName="REMARK" />
+                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+                <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_DVL_INV_PN_OUT">
+            <EntityTypeMapping TypeName="Model.T_DVL_INV_PN_OUT">
+              <MappingFragment StoreEntitySet="T_DVL_INV_PN_OUT">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="REQ_ID" ColumnName="REQ_ID" />
+                <ScalarProperty Name="PART_ID" ColumnName="PART_ID" />
+                <ScalarProperty Name="REQ_DATE" ColumnName="REQ_DATE" />
+                <ScalarProperty Name="REQ_QTY" ColumnName="REQ_QTY" />
+                <ScalarProperty Name="USER_GID" ColumnName="USER_GID" />
+                <ScalarProperty Name="REQ_TO_STORE" ColumnName="REQ_TO_STORE" />
+                <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+                <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_DVL_INV_PN_RCV">
+            <EntityTypeMapping TypeName="Model.T_DVL_INV_PN_RCV">
+              <MappingFragment StoreEntitySet="T_DVL_INV_PN_RCV">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="RCV_ID" ColumnName="RCV_ID" />
+                <ScalarProperty Name="PART_ID" ColumnName="PART_ID" />
+                <ScalarProperty Name="RCV_QTY" ColumnName="RCV_QTY" />
+                <ScalarProperty Name="RCV_DATE" ColumnName="RCV_DATE" />
+                <ScalarProperty Name="STORE_ID" ColumnName="STORE_ID" />
+                <ScalarProperty Name="DOC_NO" ColumnName="DOC_NO" />
+                <ScalarProperty Name="DOC_FILE_DIR" ColumnName="DOC_FILE_DIR" />
+                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+                <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_DVL_INV_STOCK">
+            <EntityTypeMapping TypeName="Model.T_DVL_INV_STOCK">
+              <MappingFragment StoreEntitySet="T_DVL_INV_STOCK">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="RCV_ID" ColumnName="RCV_ID" />
+                <ScalarProperty Name="REQ_ID" ColumnName="REQ_ID" />
+                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+                <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_DVL_INV_STORE">
+            <EntityTypeMapping TypeName="Model.T_DVL_INV_STORE">
+              <MappingFragment StoreEntitySet="T_DVL_INV_STORE">
+                <ScalarProperty Name="STORE_ID" ColumnName="STORE_ID" />
+                <ScalarProperty Name="STORE_NAME" ColumnName="STORE_NAME" />
+                <ScalarProperty Name="REMARK" ColumnName="REMARK" />
+                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+                <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="T_DVL_INV_USER">
+            <EntityTypeMapping TypeName="Model.T_DVL_INV_USER">
+              <MappingFragment StoreEntitySet="T_DVL_INV_USER">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="USER_GID" ColumnName="USER_GID" />
+                <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+                <ScalarProperty Name="USER_ROLE" ColumnName="USER_ROLE" />
+                <ScalarProperty Name="USER_TYPE" ColumnName="USER_TYPE" />
+                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+                <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

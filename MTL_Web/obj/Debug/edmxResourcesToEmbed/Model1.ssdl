@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="T_DVL_INV_PN">
+    <Key>
+      <PropertyRef Name="PART_ID" />
+    </Key>
+    <Property Name="PART_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PART_NO" Type="varchar2" MaxLength="100" />
+    <Property Name="PRODUCT_NAME" Type="varchar2" MaxLength="255" />
+    <Property Name="STD_PACK" Type="varchar2" MaxLength="50" />
+    <Property Name="MIN_QTY" Type="number" Precision="38" Scale="0" />
+    <Property Name="MAX_QTY" Type="number" Precision="38" Scale="0" />
+    <Property Name="CATEGORY_ID" Type="varchar2" MaxLength="100" />
+    <Property Name="STATUS" Type="varchar2" MaxLength="10" />
+    <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="CREATED_DATE" Type="date" />
+    <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="MODIFIED_DATE" Type="date" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_PN_CATEGORY">
+    <Key>
+      <PropertyRef Name="CATEGORY_ID" />
+    </Key>
+    <Property Name="CATEGORY_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CATEGORY_NAME" Type="varchar2" MaxLength="100" />
+    <Property Name="REMARK" Type="varchar2" MaxLength="255" />
+    <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="CREATED_DATE" Type="date" />
+    <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="MODIFIED_DATE" Type="date" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_PN_OUT">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="REQ_ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="REQ_ID" Type="varchar2" MaxLength="50" Nullable="false" />
+    <Property Name="PART_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="REQ_DATE" Type="date" />
+    <Property Name="REQ_QTY" Type="number" Precision="38" Scale="0" />
+    <Property Name="USER_GID" Type="varchar2" MaxLength="10" />
+    <Property Name="REQ_TO_STORE" Type="varchar2" MaxLength="50" />
+    <Property Name="STATUS" Type="varchar2" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="CREATED_DATE" Type="date" />
+    <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="MODIFIED_DATE" Type="date" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_PN_RCV">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RCV_ID" Type="varchar2" MaxLength="50" />
+    <Property Name="PART_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="RCV_QTY" Type="number" Precision="38" Scale="0" />
+    <Property Name="RCV_DATE" Type="date" />
+    <Property Name="STORE_ID" Type="varchar2" MaxLength="100" />
+    <Property Name="DOC_NO" Type="varchar2" MaxLength="100" />
+    <Property Name="DOC_FILE_DIR" Type="varchar2" MaxLength="100" />
+    <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="CREATED_DATE" Type="date" />
+    <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="MODIFIED_DATE" Type="date" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_STOCK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RCV_ID" Type="varchar2" MaxLength="50" />
+    <Property Name="REQ_ID" Type="varchar2" MaxLength="50" />
+    <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="CREATED_DATE" Type="date" />
+    <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="MODIFIED_DATE" Type="date" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_STORE">
+    <Key>
+      <PropertyRef Name="STORE_ID" />
+    </Key>
+    <Property Name="STORE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="STORE_NAME" Type="varchar2" MaxLength="100" />
+    <Property Name="REMARK" Type="varchar2" MaxLength="255" />
+    <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="CREATED_DATE" Type="date" />
+    <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="MODIFIED_DATE" Type="date" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_USER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="USER_GID" Type="varchar2" MaxLength="10" />
+    <Property Name="USER_NAME" Type="varchar2" MaxLength="255" />
+    <Property Name="USER_ROLE" Type="varchar2" MaxLength="50" />
+    <Property Name="USER_TYPE" Type="varchar2" MaxLength="100" />
+    <Property Name="CREATED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="CREATED_DATE" Type="date" />
+    <Property Name="MODIFIED_BY" Type="varchar2" MaxLength="100" />
+    <Property Name="MODIFIED_DATE" Type="date" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="T_DVL_INV_PN" EntityType="Self.T_DVL_INV_PN" Schema="G0713775" store:Type="Tables" />
+    <EntitySet Name="T_DVL_INV_PN_CATEGORY" EntityType="Self.T_DVL_INV_PN_CATEGORY" Schema="G0713775" store:Type="Tables" />
+    <EntitySet Name="T_DVL_INV_PN_OUT" EntityType="Self.T_DVL_INV_PN_OUT" Schema="G0713775" store:Type="Tables" />
+    <EntitySet Name="T_DVL_INV_PN_RCV" EntityType="Self.T_DVL_INV_PN_RCV" Schema="G0713775" store:Type="Tables" />
+    <EntitySet Name="T_DVL_INV_STOCK" EntityType="Self.T_DVL_INV_STOCK" Schema="G0713775" store:Type="Tables" />
+    <EntitySet Name="T_DVL_INV_STORE" EntityType="Self.T_DVL_INV_STORE" Schema="G0713775" store:Type="Tables" />
+    <EntitySet Name="T_DVL_INV_USER" EntityType="Self.T_DVL_INV_USER" Schema="G0713775" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

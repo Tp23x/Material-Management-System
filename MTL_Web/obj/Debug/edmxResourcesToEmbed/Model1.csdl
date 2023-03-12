@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="T_DVL_INV_PN">
+    <Key>
+      <PropertyRef Name="PART_ID" />
+    </Key>
+    <Property Name="PART_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PART_NO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PRODUCT_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="STD_PACK" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MIN_QTY" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="MAX_QTY" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CATEGORY_ID" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="STATUS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_DATE" Type="DateTime" />
+    <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MODIFIED_DATE" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_PN_CATEGORY">
+    <Key>
+      <PropertyRef Name="CATEGORY_ID" />
+    </Key>
+    <Property Name="CATEGORY_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CATEGORY_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="REMARK" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_DATE" Type="DateTime" />
+    <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MODIFIED_DATE" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_PN_OUT">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="REQ_ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="REQ_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PART_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="REQ_DATE" Type="DateTime" />
+    <Property Name="REQ_QTY" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="USER_GID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="REQ_TO_STORE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="STATUS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_DATE" Type="DateTime" />
+    <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MODIFIED_DATE" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_PN_RCV">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RCV_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PART_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="RCV_QTY" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="RCV_DATE" Type="DateTime" />
+    <Property Name="STORE_ID" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_NO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_FILE_DIR" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_DATE" Type="DateTime" />
+    <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MODIFIED_DATE" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_STOCK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RCV_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REQ_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_DATE" Type="DateTime" />
+    <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MODIFIED_DATE" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_STORE">
+    <Key>
+      <PropertyRef Name="STORE_ID" />
+    </Key>
+    <Property Name="STORE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="STORE_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="REMARK" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_DATE" Type="DateTime" />
+    <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MODIFIED_DATE" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="T_DVL_INV_USER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="USER_GID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="USER_NAME" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="USER_ROLE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USER_TYPE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CREATED_DATE" Type="DateTime" />
+    <Property Name="MODIFIED_BY" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MODIFIED_DATE" Type="DateTime" />
+  </EntityType>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="T_DVL_INV_PN" EntityType="Self.T_DVL_INV_PN" />
+    <EntitySet Name="T_DVL_INV_PN_CATEGORY" EntityType="Self.T_DVL_INV_PN_CATEGORY" />
+    <EntitySet Name="T_DVL_INV_PN_OUT" EntityType="Self.T_DVL_INV_PN_OUT" />
+    <EntitySet Name="T_DVL_INV_PN_RCV" EntityType="Self.T_DVL_INV_PN_RCV" />
+    <EntitySet Name="T_DVL_INV_STOCK" EntityType="Self.T_DVL_INV_STOCK" />
+    <EntitySet Name="T_DVL_INV_STORE" EntityType="Self.T_DVL_INV_STORE" />
+    <EntitySet Name="T_DVL_INV_USER" EntityType="Self.T_DVL_INV_USER" />
+  </EntityContainer>
+</Schema>

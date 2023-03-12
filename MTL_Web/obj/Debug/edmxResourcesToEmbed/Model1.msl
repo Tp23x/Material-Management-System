@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="T_DVL_INV_PN">
+      <EntityTypeMapping TypeName="Model.T_DVL_INV_PN">
+        <MappingFragment StoreEntitySet="T_DVL_INV_PN">
+          <ScalarProperty Name="PART_ID" ColumnName="PART_ID" />
+          <ScalarProperty Name="PART_NO" ColumnName="PART_NO" />
+          <ScalarProperty Name="PRODUCT_NAME" ColumnName="PRODUCT_NAME" />
+          <ScalarProperty Name="STD_PACK" ColumnName="STD_PACK" />
+          <ScalarProperty Name="MIN_QTY" ColumnName="MIN_QTY" />
+          <ScalarProperty Name="MAX_QTY" ColumnName="MAX_QTY" />
+          <ScalarProperty Name="CATEGORY_ID" ColumnName="CATEGORY_ID" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_DVL_INV_PN_CATEGORY">
+      <EntityTypeMapping TypeName="Model.T_DVL_INV_PN_CATEGORY">
+        <MappingFragment StoreEntitySet="T_DVL_INV_PN_CATEGORY">
+          <ScalarProperty Name="CATEGORY_ID" ColumnName="CATEGORY_ID" />
+          <ScalarProperty Name="CATEGORY_NAME" ColumnName="CATEGORY_NAME" />
+          <ScalarProperty Name="REMARK" ColumnName="REMARK" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_DVL_INV_PN_OUT">
+      <EntityTypeMapping TypeName="Model.T_DVL_INV_PN_OUT">
+        <MappingFragment StoreEntitySet="T_DVL_INV_PN_OUT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="REQ_ID" ColumnName="REQ_ID" />
+          <ScalarProperty Name="PART_ID" ColumnName="PART_ID" />
+          <ScalarProperty Name="REQ_DATE" ColumnName="REQ_DATE" />
+          <ScalarProperty Name="REQ_QTY" ColumnName="REQ_QTY" />
+          <ScalarProperty Name="USER_GID" ColumnName="USER_GID" />
+          <ScalarProperty Name="REQ_TO_STORE" ColumnName="REQ_TO_STORE" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_DVL_INV_PN_RCV">
+      <EntityTypeMapping TypeName="Model.T_DVL_INV_PN_RCV">
+        <MappingFragment StoreEntitySet="T_DVL_INV_PN_RCV">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RCV_ID" ColumnName="RCV_ID" />
+          <ScalarProperty Name="PART_ID" ColumnName="PART_ID" />
+          <ScalarProperty Name="RCV_QTY" ColumnName="RCV_QTY" />
+          <ScalarProperty Name="RCV_DATE" ColumnName="RCV_DATE" />
+          <ScalarProperty Name="STORE_ID" ColumnName="STORE_ID" />
+          <ScalarProperty Name="DOC_NO" ColumnName="DOC_NO" />
+          <ScalarProperty Name="DOC_FILE_DIR" ColumnName="DOC_FILE_DIR" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_DVL_INV_STOCK">
+      <EntityTypeMapping TypeName="Model.T_DVL_INV_STOCK">
+        <MappingFragment StoreEntitySet="T_DVL_INV_STOCK">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RCV_ID" ColumnName="RCV_ID" />
+          <ScalarProperty Name="REQ_ID" ColumnName="REQ_ID" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_DVL_INV_STORE">
+      <EntityTypeMapping TypeName="Model.T_DVL_INV_STORE">
+        <MappingFragment StoreEntitySet="T_DVL_INV_STORE">
+          <ScalarProperty Name="STORE_ID" ColumnName="STORE_ID" />
+          <ScalarProperty Name="STORE_NAME" ColumnName="STORE_NAME" />
+          <ScalarProperty Name="REMARK" ColumnName="REMARK" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_DVL_INV_USER">
+      <EntityTypeMapping TypeName="Model.T_DVL_INV_USER">
+        <MappingFragment StoreEntitySet="T_DVL_INV_USER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="USER_GID" ColumnName="USER_GID" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="USER_ROLE" ColumnName="USER_ROLE" />
+          <ScalarProperty Name="USER_TYPE" ColumnName="USER_TYPE" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,247 @@
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\MTL_Web.dll.config
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\MTL_Web.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\MTL_Web.pdb
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Data.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.Bootstrap.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxRichEdit.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Spreadsheet.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxScheduler.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraScheduler.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Printing.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.Resources.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Office.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.RichEdit.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxSpellChecker.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.SpellChecker.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.DataVisualization.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Charts.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraCharts.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.DataAccess.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Sparkline.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Pdf.v20.2.Core.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Images.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Data.Desktop.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Pdf.v20.2.Drawing.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Xpo.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.CodeParser.v20.2.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.Bootstrap.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Data.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxRichEdit.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Spreadsheet.v20.2.Core.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxScheduler.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraScheduler.v20.2.Core.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Printing.v20.2.Core.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Office.v20.2.Core.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.RichEdit.v20.2.Core.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxSpellChecker.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.SpellChecker.v20.2.Core.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraCharts.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.DataAccess.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Sparkline.v20.2.Core.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Pdf.v20.2.Core.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Data.Desktop.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Pdf.v20.2.Drawing.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Xpo.v20.2.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Data.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Data.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Data.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Data.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Office.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Office.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Office.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Office.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.DataAccess.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.DataAccess.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.DataAccess.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.DataAccess.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Xpo.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Xpo.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Xpo.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Xpo.v20.2.resources.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.csproj.CoreCompileInputs.cache
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.csproj.CopyComplete
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.pdb
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\EntityFramework.dll
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\EntityFramework.xml
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.csprojAssemblyReference.cache
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.dll.licenses
+C:\Praewnapa Development Project\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxThemes.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\MTL_Web.dll.config
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\MTL_Web.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\MTL_Web.pdb
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\EntityFramework.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Pdf.v20.2.Core.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Pdf.v20.2.Drawing.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Office.v20.2.Core.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxRichEdit.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Spreadsheet.v20.2.Core.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxScheduler.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraScheduler.v20.2.Core.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxSpellChecker.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.SpellChecker.v20.2.Core.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.DataVisualization.v20.2.Core.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Charts.v20.2.Core.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraCharts.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.DataAccess.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Sparkline.v20.2.Core.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Images.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Data.Desktop.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Xpo.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.CodeParser.v20.2.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Printing.v20.2.Core.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.RichEdit.v20.2.Core.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\EntityFramework.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.Bootstrap.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Data.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Pdf.v20.2.Core.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Pdf.v20.2.Drawing.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Office.v20.2.Core.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxRichEdit.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxSpreadsheet.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Spreadsheet.v20.2.Core.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxScheduler.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraScheduler.v20.2.Core.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraScheduler.v20.2.Core.Desktop.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Web.ASPxSpellChecker.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.SpellChecker.v20.2.Core.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.XtraCharts.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.DataAccess.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Sparkline.v20.2.Core.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Data.Desktop.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\DevExpress.Xpo.v20.2.xml
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.Resources.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Data.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Data.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Data.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Data.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.ASPxRichEdit.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.ASPxSpreadsheet.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Spreadsheet.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.ASPxScheduler.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.XtraScheduler.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Web.ASPxSpellChecker.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.XtraCharts.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.DataAccess.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\de\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\es\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ja\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\bin\ru\DevExpress.Xpo.v20.2.resources.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.csprojAssemblyReference.cache
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.dll.licenses
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.csproj.CoreCompileInputs.cache
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.csproj.CopyComplete
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.dll
+C:\Users\747027\Desktop\PJ\Material Management System\MTL_MGR_Sol\MTL_Web\obj\Debug\MTL_Web.pdb
